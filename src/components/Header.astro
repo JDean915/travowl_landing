@@ -1,0 +1,38 @@
+---
+import Container from "./Container.astro";
+import logo from "./../assets/logo.png";
+import Picture from "astro/components/Picture.astro";
+---
+
+<header class="bg-offwhite/80">
+  <Container>
+    <nav class="py-4 sm:py-6">
+      <div class="mx-auto flex flex-wrap items-center justify-between">
+        <a href="/" class="group flex items-center">
+          <div
+            class="mr-3 h-10 w-10 overflow-hidden rounded-sm bg-white p-1.5 duration-500 group-hover:bg-black lg:h-10"
+          >
+            <Picture
+              src={logo}
+              formats={["avif", "webp"]}
+              alt="Travowl Logo"
+              loading="eager"
+              class="h-full w-full object-contain duration-800 group-hover:contrast-200"
+            />
+          </div>
+          <span
+            class="self-center from-black to-orange-600 to-50% text-2xl font-bold tracking-tight whitespace-nowrap italic group-hover:inline-block group-hover:bg-linear-to-t group-hover:bg-clip-text group-hover:text-transparent lg:text-3xl"
+            >Travowl</span
+          >
+        </a>
+        <div class="flex items-center lg:order-2">
+          <a
+            href="/"
+            class="mr-2 rounded-lg bg-black px-4 py-2 text-sm font-medium text-white duration-300 hover:bg-orange-600 focus:ring-4 focus:ring-orange-400 focus:outline-none sm:text-base lg:px-5 lg:py-2.5"
+            >Get started</a
+          >
+        </div>
+      </div>
+    </nav>
+  </Container>
+</header>

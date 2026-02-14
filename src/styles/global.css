@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --color-offwhite: #f2f0ef;
+}

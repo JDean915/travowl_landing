@@ -1,0 +1,143 @@
+---
+import Layout from "../layouts/Layout.astro";
+import background from "../assets/background.svg";
+import phone from "./../assets/phonepreview.png";
+import Picture from "astro/components/Picture.astro";
+import Container from "../components/Container.astro";
+---
+
+<Layout
+  title="Travowl | Offline Travel Manager"
+  description="Plan, Track, and Remember Every Adventure"
+>
+  <section class="bg-offwhite/80">
+    <Container>
+      <div class="py-8 sm:py-16">
+        <div class="text-center">
+          <div>
+            <h2
+              class="mx-auto text-3xl leading-tight font-extrabold tracking-tight text-gray-900 italic sm:text-5xl md:max-w-3xl lg:max-w-4xl lg:text-6xl"
+            >
+              Plan, Track, and Remember <span class="text-orange-600"
+                >Every</span
+              > Adventure
+            </h2>
+            <p
+              class="mt-4 text-base font-normal text-gray-600 sm:text-xl md:mx-auto md:max-w-3xl"
+            >
+              Your personal travel companion for organizing vacations, managing
+              excursions, and creating lasting memories. All stored securely on
+              your device.
+            </p>
+          </div>
+
+          <div
+            class="mx-auto mt-8 max-w-2xl items-center justify-center space-y-4 p-4 sm:mt-16 sm:flex sm:space-y-0 sm:space-x-8"
+          >
+            <a
+              href="/"
+              class="font-headings inline-flex w-full items-center justify-center rounded-lg bg-black px-8 py-3 text-center text-base font-medium text-white duration-300 hover:bg-orange-600 focus:ring-4 focus:ring-orange-400 sm:w-auto sm:text-lg"
+            >
+              <svg
+                class="mr-2 -ml-1 h-4 w-4 sm:h-6 sm:w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                ></path></svg
+              >
+              Download
+            </a>
+            <div class="flex flex-col items-center justify-center">
+              <div class="flex items-center gap-1.5">
+                <div class="flex items-center gap-0.5">
+                  <svg
+                    aria-hidden="true"
+                    class="h-5 w-5 text-orange-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="h-5 w-5 text-orange-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="h-5 w-5 text-orange-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="h-5 w-5 text-orange-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="h-5 w-5 text-orange-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                </div>
+                <span class="font-normal text-gray-600"> 5.0 </span>
+              </div>
+              <p class="mt-1 text-sm font-normal text-gray-600">
+                Rated Best Over <span class="font-semibold text-gray-900"
+                  >15.7k</span
+                > Reviews
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-8 sm:my-16">
+          <div class="relative mx-auto h-150 w-75">
+            <Picture
+              src={phone}
+              formats={["avif", "webp"]}
+              alt="Phone preview of Travowl mobile application"
+              loading="eager"
+              class="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center gap-5 sm:mt-8 sm:gap-6">
+        </div>
+      </div>
+    </Container>
+  </section>
+</Layout>
